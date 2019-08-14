@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > a {
+    padding: 1%;
+}
+
+.selected {
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+}
