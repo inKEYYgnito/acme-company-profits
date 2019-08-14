@@ -10,5 +10,24 @@ nav > a {
 .selected {
     background-color: tomato;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+#companies{
+    display: flex;
+}
+
+#companies > ul {
+    width: 50%;
+}
+
+li {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+
+.profit-list {
+    border-bottom: solid blueviolet 1px;
+    padding: 10px;
 }
